@@ -1,7 +1,7 @@
 [project]
 name = "django-challenge"
 version = "0.1.0"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "asgiref==3.3.1",
     "django==3.1.7",
@@ -22,15 +22,15 @@ api = [
     "certifi==2024.7.4",
     "chardet==4.0.0",
     "idna==2.10",
-    "requests==2.25.1",
-    "urllib3==1.26.4",
+    "requests==2.33.0",
+    "urllib3==2.7.0",
 ]
 stock = [
     "certifi==2024.7.4",
     "chardet==4.0.0",
     "idna==2.10",
-    "requests==2.25.1",
-    "urllib3==1.26.4",
+    "requests==2.33.0",
+    "urllib3==2.7.0",
 ]
 
 [tool.uv]
