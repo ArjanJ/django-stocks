@@ -4,6 +4,8 @@ This repository has been configured to use [uv](https://github.com/astral-sh/uv)
 
 ## Prerequisites
 
+- Python 3.10 or newer
+
 Install `uv`:
 
 ```bash

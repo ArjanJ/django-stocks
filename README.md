@@ -81,6 +81,7 @@ The following features are optional to implement, but if you do, you'll be ranke
 * Use JWT instead of basic authentication for endpoints.
 
 ## How to run the project
+* Use Python 3.10 or newer.
 * Create a virtualenv: `python -m venv virtualenv` and activate it `. virtualenv/bin/activate`.
 * Install dependencies: `pip install -r requirements.txt`
 * Start the api service: `cd api_service ; ./manage.py runserver`
