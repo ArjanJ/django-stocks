@@ -1,22 +1,22 @@
 [project]
 name = "django-challenge"
 version = "0.1.0"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
-    "asgiref==3.3.1",
-    "django==3.1.7",
-    "djangorestframework==3.12.4",
+    "asgiref==3.11.1",
+    "django==5.2.17",
+    "djangorestframework==3.18.0",
     "pytz==2021.1",
-    "sqlparse==0.4.1",
+    "sqlparse==0.6.0",
 ]
 
 [project.optional-dependencies]
 common = [
-    "asgiref==3.3.1",
-    "django==3.1.7",
-    "djangorestframework==3.12.4",
+    "asgiref==3.11.1",
+    "django==5.2.17",
+    "djangorestframework==3.18.0",
     "pytz==2021.1",
-    "sqlparse==0.4.1",
+    "sqlparse==0.6.0",
 ]
 api = [
     "certifi==2024.7.4",
@@ -38,7 +38,7 @@ package = false
 
 [tool.black]
 line-length = 88
-target-version = ['py38']
+target-version = ['py310']
 include = '\.pyi?$'
 
 [tool.isort]
